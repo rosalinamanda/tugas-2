@@ -4670,6 +4670,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="5.08" y1="48.26" x2="20.32" y2="48.26" width="0.1524" layer="91"/>
 <junction x="25.4" y="99.06"/>
 <junction x="20.32" y="48.26"/>
+<junction x="83.82" y="109.22"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -4684,16 +4685,13 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="PH" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="IO15"/>
 <label x="78.74" y="50.8" size="1.778" layer="95"/>
-<wire x1="68.58" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="50.8" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="68.58" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
 <label x="106.68" y="68.58" size="1.778" layer="95"/>
 <pinref part="JP1" gate="A" pin="1"/>
-<wire x1="109.22" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
-<junction x="101.6" y="50.8"/>
+<wire x1="101.6" y1="68.58" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="IO15"/>
+<wire x1="68.58" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MOISTURE" class="0">
